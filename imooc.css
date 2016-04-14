@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    margin:0;
+}
+
 body{
     margin:0;
     padding:0;
@@ -43,7 +48,7 @@ body{
 
 .main{
     width: 1000px;
-    height:718px;
+    height:710px;
     margin:0 auto;
     position: relative;
     top:1px;
@@ -222,13 +227,16 @@ body{
 
     .txt_news{
         float:left;
-        padding:0
+        padding:0;
+        position:relative;
     }
 
     .a1_news{
         color: red;
         font-size: 12px;
         font-weight: bold;
+        position:absolute;
+        top:0;
     }
     .img_a{
         float:left;
@@ -257,6 +265,7 @@ body{
 
     .ul_news{
         padding:0;
+        width:100%;
         position: absolute;
         top:0;
         margin:0;
@@ -273,16 +282,19 @@ body{
     .li_news{
         list-style-type:none;
         position:relative;
-        height:23px;
+        height:14px;
         width:100%;
+        margin-bottom:8px;
+        border-bottom: 1px dotted #CCC;
     }
 
     .s_news{
         font-size:12px;
         color: #ccc;
-        height:20px;
+        height:14px;
         float: right;
         line-height:15px;
+        margin-right:8px;
     }
 
 
@@ -297,22 +309,22 @@ body{
     .lessons_bg{
         position: absolute;
         height: 2px;
-        width: 80%;
+        width: 90%;
         background:#e0e0e0;
         top: 60px;
-        left: 40px;
+        left: 20px;
     }
     .ul_lessons{
         position: absolute;
-        top:30px;
+        top:45px;
         left:0;
         width: 100%;
+        padding-left: 22px;
     }
 
 
     .li_lessons{
         font-size: 12px;
-
         list-style-type: none;
         float:left;
         margin: 0 15px;
@@ -327,10 +339,74 @@ body{
         left: 768px;
     }
 
+    .media_div1{
+        height:148px;
+        width:228px;
+        border: 1px solid;
+        border-color: #ded;
+    }
+
+    .media_div2{
+        height:57px;
+        width:228px;
+        border: 1px solid;
+        border-color: #ded;
+        margin-top: 10px
+    }
+
 
     .foot{
-        height: 224px;
+        height: 190px;
+        margin-top: 15px;
+        background: #e0e0e0;
+        position:relative;
+    }
 
+    .foot_row{
+        width:200px;
+        height:156px;
+        list-style-type:none;
+        text-align: center;
+        float:left;
+    }
+
+    .ul_foot{
+        padding-top:20px;
+        height:150px;
+    }
+
+    .ss_foot{
+        font-size:14px;
+    }
+
+    .foot_line{
+        list-style-type:none;
+        text-align: center;
+        height: 31px;
+        line-height:35px;
+        font-size: 14px;
+        color: #a0a0a0;
+    }
+
+    .foot_title{
+        font-size: 18px;
+        line_height: 30px;
+        color: #a0a0a0;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .foot_content{
+    }
+
+
+    .foot_copyright{
+        height:14px;
+        font-size:10px;
+        font-weight: bold;
+        color: #a0a0a0;
+        text-align: center;
+        display: block;
+        margin-bottom: 0;
     }
 
 
